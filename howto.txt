@@ -1,0 +1,12 @@
+3rd DevOps Project
+------------------------------------------------------------------------------
+CI & CD of Docker based application using Jenkins Pipeline scripts  (GroovyDSL) 
+1. Launch 2 ec3 (jenkins+Webapp)
+2. Ensure Docker is installed on both servers
+3. Install jenkins on the Jenkins servers
+4. Create pipeline & mention stages
+    a) git checkout
+    b) build Docker image
+    c) push Docker image to DockerHub
+    d) Run container on Webapp_server by pulling the same image from DockerHub
+5. Rectify if any issue comes 
